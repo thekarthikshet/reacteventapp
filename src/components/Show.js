@@ -8,7 +8,7 @@ export default function Show(props) {
       <div className="col-5">
         <h2>
           {props.show.name}
-          <span class="badge bg-secondary">₹{props.show.price}</span>
+          <span class="badge bg-secondary"> ₹{props.show.price}</span>
         </h2>
       </div>
       <div className="col-3">
