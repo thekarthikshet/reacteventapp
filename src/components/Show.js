@@ -17,7 +17,7 @@ export default function Show(props) {
           role="group"
           aria-label="Basic mixed styles example"
         >
-          <button type="button" class="btn btn-danger">
+          <button type="button" class="btn btn-danger" onClick={()=>{props.decrementQty(props.index)}}>
             -
           </button>
           <button type="button" class="btn btn-warning">
