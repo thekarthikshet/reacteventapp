@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Showlist from './components/Showlist.js';
 import Footer from './components/Footer.js';
 import React, { useState } from 'react';
+import EventList from './components/EventList';
+import axios from 'axios';
 
 function App() {
   const initialShowlist = [
@@ -59,6 +61,7 @@ function App() {
       <main className='container mt-5'> 
         <Showlist showlist={showlistState} incrementQty={incrementQty} decrementQty={decrementQty} />
       </main>
+      <EventList></EventList>
       <Footer totalAmount={totalAmount} resetAll={resetAll}/>
     </>
   );
