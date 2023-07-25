@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.list-event {
+  text-align: center;
+}
+
+.list-event > div {
+  margin: 0 auto;
+}
 
 
 
